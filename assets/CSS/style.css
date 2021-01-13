@@ -1,0 +1,46 @@
+
+body{
+    
+    background-color:  rgba(159, 209, 181, 0.103);
+    
+
+}
+nav {
+    color:  rgba(77, 192, 127, 0.884);
+    background-color:  rgb(159, 209, 181);
+}
+img { 
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+#homeIMG {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+ }
+
+ @media screen and (max-width: 768px) {
+ }
