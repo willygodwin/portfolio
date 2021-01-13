@@ -1,6 +1,7 @@
 
 body{
     background-image: url("ksg.jpg");
+    
     background-position: right bottom;
     /* background-repeat: no-repeat; */
     background-attachment: fixed;
@@ -8,6 +9,11 @@ body{
     font-family: monospace ;
 
 }
+
+a{
+    text-decoration: none;
+}
+
 nav {
     color:  rgba(77, 192, 127, 0.884);
     background-color:  #17a3b8e1;
@@ -29,8 +35,8 @@ img {
     margin-top: 0px;
 }
 
-.card-body {
-    background-color:  #f8f9fa;
+.card{
+    background-color:  #ffffffd4;
 }
 
 hr {
@@ -98,6 +104,7 @@ hr {
   
   .saved-recipe-carousel-card{
     margin:0.5rem;
+    box-sizing: inherit;
   }
   
   .saved-recipe-carousel-image:hover, .saved-recipe-carousel-title:hover{
