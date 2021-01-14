@@ -6,7 +6,7 @@ Portfolio outlining web applications to date
 
 Title/Nav bar -
 
-# Index.html Page
+## Index.html Page
 
 About Me Card -
 
@@ -15,7 +15,7 @@ About Me Card -
 Current Weather Card -
 
 
-# Portfolio.html Page
+## Portfolio.html Page
 
 Carousel Card -
 
