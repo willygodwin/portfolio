@@ -16,3 +16,4 @@ $('.right-button').click(function(){
     let leftPos = $('.wrapper').scrollLeft();
     $('.wrapper').animate({scrollLeft: leftPos + 450},400);
 })
+

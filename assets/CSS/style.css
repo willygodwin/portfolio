@@ -10,12 +10,16 @@ body{
 
 }
 
+.skills{
+  margin-left: 195px;
+  margin-bottom: 0;
+}
 a{
     text-decoration: none;
 }
 
 nav {
-    color:  rgba(77, 192, 127, 0.884);
+    color:  black;
     background-color:  #17a3b8e1;
 }
 
@@ -177,5 +181,13 @@ hr {
     font-weight: 700;
   }
 
+  
+
  @media screen and (max-width: 768px) {
+   
+.skills{
+  margin-left: 0px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
  }
