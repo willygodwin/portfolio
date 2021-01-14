@@ -18,18 +18,45 @@ nav {
     color:  rgba(77, 192, 127, 0.884);
     background-color:  #17a3b8e1;
 }
-img { 
-    width: 350px;
-    height: 350px;
+
+.linkedin{
+    width: 25px;
+    height: 25px;
+}
+
+.linkedin:hover{
+    opacity: 0.5;
+}
+
+.github{
+    width: 17px;
+    height: 17px;
+    margin-top: 2px;
+}
+
+.github:hover{
+    opacity: 0.5;
+}
+
+
+.resume{
+    width: 17px;
+    height: 17px;
+    margin-top: 3px;
+}
+
+.resume:hover{
+    opacity: 0.5;
+}
+
+
+
+#homeIMG {
+    width: 220px;
+    height: 200px;
     padding: 15px;
     padding-left: 0px;
     margin-left: 0px;
-
-}
-
-#homeIMG {
-    width: 200px;
-    height: 200px;
     padding-bottom: 0px;
     padding-top: 0px;
     margin-top: 0px;
@@ -129,6 +156,7 @@ hr {
     height: 150px;
     margin: 0;
     border-radius: 50%;
+    padding: 0px;
   }
   
   .saved-recipe-carousel-title{
