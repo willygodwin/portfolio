@@ -124,6 +124,8 @@ hr {
     height: 165px;
     overflow-x: scroll;
     overflow-y: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   #saved-recipe-carousel{
@@ -181,7 +183,45 @@ hr {
     font-weight: 700;
   }
 
+  .saved-recipe-carousel-card .tooltiptext {
+    /* visibility: hidden; */
+    display: none;
+    
+    background-color: #c73968e3;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    height: auto;
+    width: 775px;
+    top: 130%;
+    left: 0%;
+    margin-left: 58px;
   
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* .saved-recipe-carousel-card:hover .tooltiptext {
+    visibility: visible;
+  } */
+  
+  .screenshot-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .screenshot-container img{
+    margin-bottom: 30px;
+  }
+
+  .tooltiptext img{
+    width: 700px;
+    height: auto;
+  }
 
  @media screen and (max-width: 768px) {
    
